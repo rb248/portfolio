@@ -103,16 +103,6 @@ export class ProjectsComponent implements OnInit, OnDestroy {
   }
 
   renderProjects() {
-    this.projects = this.projectService
-      .getProjects()
-      .filter(project =>
-        this.tagsService.tags
-          .filter(tag => tag.isSelected)
-          .reduce(
-            (prev, tag) =>
-              prev || project.tags.indexOf(tag.displayName.toLowerCase()) !== -1,
-            false
-          )
-      );
+    this.projects = this.projectService.getProjects();
   }
 }
