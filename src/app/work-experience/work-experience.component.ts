@@ -95,52 +95,6 @@ export class WorkExperienceComponent implements OnInit {
         'Enhanced system reliability and maintainability'
       ],
       technologies: ['Java', 'Spring Boot', 'SQL', 'Backend Development', 'Database Optimization']
-    },
-    {
-      id: 'face-recognition',
-      title: 'IoT & Computer Vision Project',
-      company: 'Academic Project',
-      location: 'India',
-      period: '2018',
-      description: 'Facial Recognition and detection using Raspberry Pi and automatic storage in cloud.',
-      achievements: [
-        'Implemented face detection and recognition system',
-        'Integrated Raspberry Pi with cloud storage',
-        'Automated image capture and storage workflow',
-        'Built end-to-end IoT solution'
-      ],
-      technologies: ['Raspberry Pi', 'Python', 'Computer Vision', 'Cloud Storage', 'IoT']
-    },
-    {
-      id: 'news-app',
-      title: 'Android News Application',
-      company: 'Personal Project',
-      location: 'India',
-      period: '2018',
-      description: 'News app for Android using live API to read news articles from the most popular news websites.',
-      achievements: [
-        'Built Android application with live news feed',
-        'Integrated REST API for real-time news updates',
-        'Implemented clean UI/UX for news reading',
-        'Published on GitHub for open-source contribution'
-      ],
-      technologies: ['Android', 'Java', 'REST API', 'Mobile Development']
-    },
-    {
-      id: 'private-cloud',
-      title: 'Cloud Automation Project',
-      company: 'Academic Project',
-      location: 'India',
-      period: '2018',
-      description: 'Automated deployment of Cloud Computing & Virtualization using Containerized Docker Integration on Linux System using Python provisioned by DevOps (Ansible).',
-      achievements: [
-        'Automated cloud infrastructure deployment',
-        'Implemented containerization with Docker',
-        'Used Ansible for configuration management',
-        'Built Python scripts for automation',
-        'Demonstrated DevOps best practices'
-      ],
-      technologies: ['Docker', 'Ansible', 'Python', 'Linux', 'DevOps', 'Cloud Computing', 'Virtualization']
     }
   ];
 
