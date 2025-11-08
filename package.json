@@ -5,11 +5,11 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "NODE_OPTIONS=--openssl-legacy-provider ng build --prod",
+    "build": "ng build --prod",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "deploy": "NODE_OPTIONS=--openssl-legacy-provider ng build --prod --base-href /portfolio/ && npx angular-cli-ghpages --dir=dist"
+    "deploy": "ng build --prod --base-href /portfolio/ && npx angular-cli-ghpages --dir=dist"
   },
   "private": true,
   "dependencies": {
