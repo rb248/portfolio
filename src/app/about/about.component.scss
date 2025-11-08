@@ -70,8 +70,12 @@ $row-coloum-brk-point: 'max-width: 1040px';
 }
 
 .skill-container {
-  padding: 3rem 1.8rem;
+  padding: 3rem 2.5rem;
   margin-left: 5rem;
+  background: linear-gradient(135deg, #1de9b6 0%, #00bcd4 100%);
+  color: #fff;
+  border-radius: 2rem;
+  box-shadow: 0 8px 32px rgba(0, 188, 212, 0.12);
   @media ($row-coloum-brk-point) {
     margin: auto;
   }
@@ -86,6 +90,10 @@ $row-coloum-brk-point: 'max-width: 1040px';
   font-size: 3.2rem;
   font-family: 'Cormorant Garamond', serif;
   justify-content: flex-start;
+  background: linear-gradient(90deg, #fff 60%, #1de9b6 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
   &:after {
     content: '';
     position: absolute;
@@ -103,6 +111,7 @@ $row-coloum-brk-point: 'max-width: 1040px';
   margin: 1.2rem 0;
   padding-bottom: 0.2rem;
   font-size: 1.6rem;
+  color: #fff;
   &:after {
     content: '';
     position: absolute;
@@ -111,7 +120,7 @@ $row-coloum-brk-point: 'max-width: 1040px';
     height: 1.5px;
     top: 100%;
     left: 0;
-    background: $off-white;
+    background: #fff;
   }
 }
 
@@ -119,4 +128,5 @@ $row-coloum-brk-point: 'max-width: 1040px';
   margin-left: 2.8rem;
   margin-bottom: 2rem;
   margin-top: -0.6rem;
+  color: #e0e7ff;
 }
