@@ -29,6 +29,7 @@ import { LandingPageComponent } from './landing-page/landing-page.component';
 import { appRouting } from './app.routing';
 import { NoEmojiPipe } from './pipes/no-emoji.pipe';
 import { SkillsService } from './services/skills.service';
+import { WelcomeComponent } from './home/welcome.component';
 
 @NgModule({
   declarations: [
@@ -50,7 +51,8 @@ import { SkillsService } from './services/skills.service';
     MaxLengthPipe,
     TypingComponent,
     LandingPageComponent,
-    NoEmojiPipe
+    NoEmojiPipe,
+    WelcomeComponent
   ],
   imports: [
     BrowserModule,
