@@ -56,17 +56,18 @@ $row-coloum-brk-point: 'max-width: 1040px';
 
 .text-container {
   height: auto;
-  max-width: 32rem;
+  max-width: 42rem;
   background: #e74c3c;
-  padding: 3rem 1.8rem;
-  padding-top: 5.8rem;
+  padding: 4rem 2.5rem;
+  padding-top: 7rem;
   border-radius: 2rem;
-  min-width: 34rem;
+  min-width: 40rem;
+  font-size: 1.15rem;
 }
 
 .dp-logo {
   font-size: 1.6rem;
-  transform: translate(0, 45%);
+  transform: translate(0, 50%);
 }
 
 .skill-container {
@@ -76,6 +77,7 @@ $row-coloum-brk-point: 'max-width: 1040px';
   color: #fff;
   border-radius: 2rem;
   box-shadow: 0 8px 32px rgba(0, 188, 212, 0.12);
+  min-width: 500px;
   @media ($row-coloum-brk-point) {
     margin: auto;
   }
@@ -90,10 +92,7 @@ $row-coloum-brk-point: 'max-width: 1040px';
   font-size: 3.2rem;
   font-family: 'Cormorant Garamond', serif;
   justify-content: flex-start;
-  background: linear-gradient(90deg, #fff 60%, #1de9b6 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: #fff;
   &:after {
     content: '';
     position: absolute;
@@ -102,7 +101,7 @@ $row-coloum-brk-point: 'max-width: 1040px';
     height: 3px;
     top: 100%;
     left: 0;
-    background: $off-white;
+    background: #fff;
   }
 }
 
