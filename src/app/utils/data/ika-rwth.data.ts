@@ -13,7 +13,7 @@ export const IKARWTHData: IProject = {
     'Deployed Nuclio inference service for rapid model feedback loops',
     'Developed automated pipelines for model training and evaluation'
   ],
-  tags: ['machine-learning', '3d-vision', 'autonomous-vehicles'],
+  tags: ['machine-learning', 'python'],
   techStuff: [
     'Python',
     'PyTorch',

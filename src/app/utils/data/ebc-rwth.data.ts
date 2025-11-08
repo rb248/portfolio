@@ -14,7 +14,7 @@ export const EBCRWTHData: IProject = {
     'Enabled data-driven decisions used by multiple departments',
     'Deployed services using Docker and FastAPI'
   ],
-  tags: ['data-engineering', 'time-series', 'analytics'],
+  tags: ['python', 'backend'],
   techStuff: [
     'FastAPI',
     'InfluxDB',

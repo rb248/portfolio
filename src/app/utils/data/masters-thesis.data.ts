@@ -6,6 +6,7 @@ export const MastersThesisData: IProject = {
   description:
     'Master\'s thesis developing a more reliable 3D object detection system for vehicle-to-everything (V2X) collaborative perception',
   projectLink: '#',
+  liveUrl: '#',
   isFeatured: true,
   features: [
     'Developed robust 3D object detection system for connected vehicles',
@@ -15,7 +16,7 @@ export const MastersThesisData: IProject = {
     'Applied to V2X collaborative perception scenarios',
     'Experience directly transferable to production AI deployments'
   ],
-  tags: ['machine-learning', '3d-vision', 'autonomous-vehicles', 'research'],
+  tags: ['machine-learning', 'python'],
   techStuff: [
     'PyTorch',
     'Python',

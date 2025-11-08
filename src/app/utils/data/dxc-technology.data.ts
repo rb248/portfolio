@@ -13,7 +13,7 @@ export const DXCTechnologyData: IProject = {
     'Improved response times for client systems',
     'Enhanced system reliability and maintainability'
   ],
-  tags: ['backend', 'java', 'automation'],
+  tags: ['backend'],
   techStuff: [
     'Java',
     'Spring Boot',
