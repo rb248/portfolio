@@ -5,6 +5,7 @@ import { ProfileComponent } from './profile/profile.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
+import { WorkExperienceComponent } from './work-experience/work-experience.component';
 
 const APP_ROUTES: Routes = [
   {
@@ -27,6 +28,11 @@ const APP_ROUTES: Routes = [
     path: 'about',
     component: AboutComponent,
     data: { animation: 'about' }
+  },
+  {
+    path: 'work-experience',
+    component: WorkExperienceComponent,
+    data: { animation: 'work-experience' }
   },
   {
     path: 'contact',

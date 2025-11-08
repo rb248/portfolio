@@ -30,6 +30,7 @@ import { appRouting } from './app.routing';
 import { NoEmojiPipe } from './pipes/no-emoji.pipe';
 import { SkillsService } from './services/skills.service';
 import { WelcomeComponent } from './home/welcome.component';
+import { WorkExperienceComponent } from './work-experience/work-experience.component';
 
 @NgModule({
   declarations: [
@@ -52,7 +53,8 @@ import { WelcomeComponent } from './home/welcome.component';
     TypingComponent,
     LandingPageComponent,
     NoEmojiPipe,
-    WelcomeComponent
+    WelcomeComponent,
+    WorkExperienceComponent
   ],
   imports: [
     BrowserModule,

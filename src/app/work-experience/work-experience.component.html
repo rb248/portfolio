@@ -1,0 +1,46 @@
+<div class="work-experience-container">
+  <div class="header">
+    <div class="back-icon" routerLink="/">
+      <app-back-icon></app-back-icon>
+    </div>
+    <h1 class="page-title">💼 Work Experience</h1>
+  </div>
+
+  <div class="timeline">
+    <div class="experience-card" *ngFor="let exp of experiences; let i = index" [@slideIn]>
+      <div class="timeline-marker">
+        <div class="marker-dot"></div>
+        <div class="marker-line" *ngIf="i < experiences.length - 1"></div>
+      </div>
+      
+      <div class="card-content">
+        <div class="card-header">
+          <div class="header-left">
+            <h2 class="job-title">{{ exp.title }}</h2>
+            <h3 class="company-name">{{ exp.company }}</h3>
+            <div class="meta-info">
+              <span class="location">📍 {{ exp.location }}</span>
+              <span class="period">📅 {{ exp.period }}</span>
+            </div>
+          </div>
+        </div>
+
+        <p class="description">{{ exp.description }}</p>
+
+        <div class="achievements">
+          <h4>Key Achievements:</h4>
+          <ul>
+            <li *ngFor="let achievement of exp.achievements">{{ achievement }}</li>
+          </ul>
+        </div>
+
+        <div class="technologies">
+          <h4>Technologies:</h4>
+          <div class="tech-tags">
+            <span class="tech-tag" *ngFor="let tech of exp.technologies">{{ tech }}</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
