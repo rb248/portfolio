@@ -31,7 +31,7 @@ $row-coloum-brk-point: 'max-width: 1040px';
     flex-direction: column;
   }
   .side1 {
-    flex: 1;
+    flex: 1.5;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -46,7 +46,7 @@ $row-coloum-brk-point: 'max-width: 1040px';
     }
   }
   .side2 {
-    flex: 1;
+    flex: 1.5;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -56,7 +56,8 @@ $row-coloum-brk-point: 'max-width: 1040px';
 
 .text-container {
   height: auto;
-  max-width: 60rem;
+  width: 100%;
+  max-width: none;
   background: #e74c3c;
   padding: 5rem 4rem;
   padding-top: 10rem;
@@ -74,11 +75,11 @@ $row-coloum-brk-point: 'max-width: 1040px';
 .skill-container {
   padding: 5rem 4rem;
   margin-left: 5rem;
+  width: 100%;
   background: linear-gradient(135deg, #1de9b6 0%, #00bcd4 100%);
   color: #fff;
   border-radius: 2rem;
   box-shadow: 0 8px 32px rgba(0, 188, 212, 0.12);
-  min-width: 700px;
   @media ($row-coloum-brk-point) {
     margin: auto;
   }
