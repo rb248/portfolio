@@ -16,7 +16,7 @@ export const MastersThesisData: IProject = {
     'Applied to V2X collaborative perception scenarios',
     'Experience directly transferable to production AI deployments'
   ],
-  tags: ['machine-learning', 'python'],
+  tags: ['machine learning', 'python'],
   techStuff: [
     'PyTorch',
     'Python',

@@ -15,7 +15,7 @@ export const SenseforthAIData: IProject = {
     'Reduced API latency by 35% for 1K+ concurrent users',
     'Integrated Hugging Face transformers for advanced NLP capabilities'
   ],
-  tags: ['machine-learning', 'python', 'backend'],
+  tags: ['machine learning', 'python', 'backend'],
   techStuff: [
     'Python',
     'PyTorch',
