@@ -1,10 +1,23 @@
-@import '../_var.scss';
+@import '../var';
+
+.overlay {
+  display: inline-block;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  left: -100%;
+  position: fixed;
+  background: $color2;
+  transform: scale(2) skew(-10deg);
+  z-index: -1;
+  transition: 0.3s all ease-in-out;
+}
 
 .work-experience-container {
   min-height: 100vh;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   padding: 2rem;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  position: relative;
 }
 
 .header {
@@ -26,7 +39,7 @@
 
   .page-title {
     text-align: center;
-    color: white;
+    color: $off-white;
     font-size: 3rem;
     font-weight: 700;
     margin: 0;

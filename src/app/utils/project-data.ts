@@ -25,31 +25,16 @@ import { IKARWTHData } from './data/ika-rwth.data';
 import { EBCRWTHData } from './data/ebc-rwth.data';
 import { SenseforthAIData } from './data/senseforth-ai.data';
 import { DXCTechnologyData } from './data/dxc-technology.data';
+import { FaceRecognitionData } from './data/face-recognition.data';
+import { NewsAppData } from './data/news-app-android.data';
+import { PrivateCloudData } from './data/private-cloud.data';
 
 const getAllProject = () => {
   const projects = [
     MastersThesisData,
-    IKARWTHData,
-    EBCRWTHData,
-    SenseforthAIData,
-    DXCTechnologyData,
-    liveServerData,
-    LiveSassData,
-    portfoliloData,
-    OShopData,
-    SocialDiaryData,
-    CakeShopData,
-    SaleItData,
-    SocialNetworkData,
-    techFestData,
-    IndecitionData,
-    ExpensifyData,
-    LiveServerWebExtensionData,
-    WeMateData,
-    createFileFolderData,
-    FaceDetectionData,
-    bikeShopData,
-    LargeNumberFactorialData,
+    FaceRecognitionData,
+    NewsAppData,
+    PrivateCloudData
   ];
 
   if (!environment.production) {
