@@ -28,10 +28,14 @@ import { DXCTechnologyData } from './data/dxc-technology.data';
 import { FaceRecognitionData } from './data/face-recognition.data';
 import { NewsAppData } from './data/news-app-android.data';
 import { PrivateCloudData } from './data/private-cloud.data';
+import { KnowledgeExtractionData } from './data/knowledge-extraction.data';
+import { ReinforcementLearningData } from './data/reinforcement-learning.data';
 
 const getAllProject = () => {
   const projects = [
     MastersThesisData,
+    KnowledgeExtractionData,
+    ReinforcementLearningData,
     FaceRecognitionData,
     NewsAppData,
     PrivateCloudData
