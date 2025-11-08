@@ -35,7 +35,7 @@ export class ContactComponent implements OnInit {
     work: [
       {
         name: 'GitHub',
-        url: 'https://github.com/cuckooinc',
+        url: 'https://github.com/rb248',
         iconUrl: './assets/icons/github.svg'
       },
       {
@@ -54,8 +54,13 @@ export class ContactComponent implements OnInit {
 
   email = {
     name: 'Email',
-    url: 'mailto:rishabhbhatia_pr@srmuniv.edu.in',
+    url: 'mailto:rishabh.bhatia@rwth-aachen.de',
     iconUrl: './assets/icons/email.svg'
+  };
+
+  address = {
+    location: 'Buechel 22, Aachen, Germany',
+    phone: '+4917645873560'
   };
 
   

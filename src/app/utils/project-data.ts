@@ -20,9 +20,19 @@ import { ExpensifyData } from './data/expensify.data';
 import { createFileFolderData } from './data/create-files-folder-on-the-go.data';
 import { techFestData } from './data/college-tech-fest.data';
 import { bikeShopData } from './data/simple-bike-shopping-site.data';
+import { MastersThesisData } from './data/masters-thesis.data';
+import { IKARWTHData } from './data/ika-rwth.data';
+import { EBCRWTHData } from './data/ebc-rwth.data';
+import { SenseforthAIData } from './data/senseforth-ai.data';
+import { DXCTechnologyData } from './data/dxc-technology.data';
 
 const getAllProject = () => {
   const projects = [
+    MastersThesisData,
+    IKARWTHData,
+    EBCRWTHData,
+    SenseforthAIData,
+    DXCTechnologyData,
     liveServerData,
     LiveSassData,
     portfoliloData,

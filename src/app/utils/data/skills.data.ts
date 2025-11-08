@@ -2,35 +2,39 @@ import { ISkill } from '../ISkill';
 
 export const SKILLS_DATA: ISkill[] = [
   {
-    type: 'Programming Language',
+    type: 'Machine Learning',
     names: [
-      'C', 'C++', 'JavaScript', 'TypeScript', 'Python','Java'
+      'ML Algorithms', 'NLP (Transformers)', 'Time-Series (Energy)', '3D Vision', 'Computer Vision', 'Deep Learning'
     ]
   },
   {
-    type: 'Backend',
+    type: 'Tech & Frameworks',
     names: [
-      'Firebase'
+      'Python', 'SQL', 'Spark', 'PyTorch', 'TensorFlow', 'Hugging Face', 'scikit-learn'
     ]
   },
   {
-    type: 'Frontend',
+    type: 'MLOps & Cloud',
     names: [
-      'Angular',  'CSS', 'HTML', 'jQuery'
+      'FastAPI', 'Docker', 'CI/CD', 'REST APIs', 'Kubernetes', 'Nuclio', 'AWS', 'Azure'
     ]
   },
   {
-    type: 'Database & ORM',
+    type: 'Data Engineering',
     names: [
-      'MySQL', 
+      'InfluxDB', 'Grafana', 'Power BI', 'Data Pipelines', 'ETL'
     ]
   },
-  
-  
   {
-    type: 'Others',
+    type: 'Programming Languages',
     names: [
-      'Git & GitHub',  'REST API',  'Auth0'
+      'Python', 'SQL', 'Java', 'JavaScript', 'TypeScript', 'C', 'C++'
     ]
   },
+  {
+    type: 'Tools & Others',
+    names: [
+      'Git & GitHub', 'CVAT', 'Spring Boot', 'Angular', 'Node.js'
+    ]
+  }
 ];
