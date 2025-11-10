@@ -25,27 +25,41 @@
 }
 
 .navLink {
-  padding: 2rem 0;
-  margin: 1rem 0;
+  padding: 2.5rem 1.5rem;
+  margin: 1.5rem 0;
   width: 40%;
   min-width: 40rem;
-  font-size: 2.4rem;
-  font-weight: bold;
+  font-size: 3.2rem;
+  font-weight: 900;
   text-transform: uppercase;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
   text-align: center;
-  background: rgba(#f8f8f8, 0.5);
+  background: linear-gradient(135deg, #0395DE 0%, #006BB8 100%);
   cursor: pointer;
-  border-radius: 0.5rem;
+  border-radius: 0.8rem;
+  box-shadow: 0 8px 25px rgba(3, 149, 222, 0.4);
+  transition: all 0.3s ease;
+  border: 2px solid #00BBFF;
+  
+  &:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 35px rgba(3, 149, 222, 0.6);
+    background: linear-gradient(135deg, #00BBFF 0%, #0395DE 100%);
+  }
+  
   @media (max-width: 1300px) {
     width: 60%;
+    font-size: 2.8rem;
   }
   @media (max-width: 640px) {
     width: 100%;
+    font-size: 2.4rem;
+    padding: 2rem 1rem;
   }
 }
 
 .navLink>* {
   color: #fff;
   text-decoration: none;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
 }
